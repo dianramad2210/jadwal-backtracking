@@ -40,6 +40,6 @@ Aplikasi ini dibuat sebagai tugas pada mata kuliah Desain dan Analisis Algoritma
 ## Cara Menjalankan Aplikasi
 1. Install XAMPP
 2. Jalankan Apache
-3. Pindahkan folder `jadwal-backtracking` ke direktori `htdocs`
+3. Pindahkan folder `jadwal_backtracking` ke direktori `htdocs`
 4. Akses aplikasi melalui browser:
    http://localhost/jadwal_backtracking
