@@ -34,7 +34,6 @@ Aplikasi ini dibuat sebagai tugas pada mata kuliah Desain dan Analisis Algoritma
 
 ## Teknologi yang Digunakan
 - PHP
-- HTML
 - CSS
 - XAMPP (Web Server Lokal)
 
