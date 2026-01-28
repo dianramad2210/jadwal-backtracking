@@ -1,4 +1,4 @@
-# Aplikasi Penyusunan Jadwal Mata Kuliah Menggunakan Algoritma Backtracking
+# Aplikasi Penyusunan Jadwal Mata Kuliah Tanpa Bentrok Menggunakan Algoritma Backtracking
 
 ## Mata Kuliah
 **Desain dan Analisis Algoritma**
