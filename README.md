@@ -19,6 +19,15 @@ Aplikasi ini dibuat sebagai tugas pada mata kuliah Desain dan Analisis Algoritma
 - Menghindari bentrokan waktu, dosen, dan ruangan
 - Menghasilkan beberapa solusi jadwal yang valid
 
+## Tampilan Aplikasi
+
+### Halaman Utama
+![Halaman Utama](img/home.png)
+
+### Hasil Penyusunan Jadwal
+![Hasil Jadwal](img/hasil_jadwal.png)
+
+
 ## Algoritma yang Digunakan
 - **Backtracking**
 
