@@ -43,4 +43,4 @@ Aplikasi ini dibuat sebagai tugas pada mata kuliah Desain dan Analisis Algoritma
 2. Jalankan Apache
 3. Pindahkan folder `jadwal-backtracking` ke direktori `htdocs`
 4. Akses aplikasi melalui browser:
-   http://localhost/jadwal-backtracking
+   http://localhost/jadwal_backtracking
