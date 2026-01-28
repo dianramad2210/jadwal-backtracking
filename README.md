@@ -26,7 +26,8 @@ Aplikasi ini dibuat sebagai tugas pada mata kuliah Desain dan Analisis Algoritma
 
 ### Hasil Penyusunan Jadwal
 ![Hasil Jadwal](img/hasil_jadwal.png)
-
+![Hasil Jadwal](img/hasil_jadwal(2).png)
+![Hasil Jadwal](img/hasil_jadwal(3).png)
 
 ## Algoritma yang Digunakan
 - **Backtracking**
