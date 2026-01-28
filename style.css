@@ -1,0 +1,255 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #ecfdf5, #f0fdfa);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page {
+  width: 100%;
+  max-width: 1200px;
+  padding: 24px 32px;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 800;
+  color: #064e3b;
+  margin-bottom: 20px;
+}
+
+/* HERO LAYOUT */
+.hero {
+  display: grid;
+  grid-template-columns: 0.9fr 1.6fr;
+  gap: 32px;
+  align-items: center;
+}
+
+/* GAMBAR */
+.hero-image img {
+  width: 100%;
+  max-width: 420px;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 28px;
+  box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+}
+
+/* FORM */
+.hero-form {
+  background: rgba(255,255,255,0.75);
+  backdrop-filter: blur(12px);
+  border-radius: 24px;
+  padding: 28px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+th {
+  background: #064e3b;
+  color: #fff;
+  text-align: left;
+  padding: 12px;
+  font-size: 14px;
+}
+
+td {
+  padding: 12px;
+  font-size: 14px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+tr:hover {
+  background: #ecfdf5;
+}
+
+/* LEBAR KOLOM */
+th:nth-child(1),
+td:nth-child(1) {
+  width: 80px;
+  text-align: center;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  width: 55%;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+  width: 45%;
+}
+
+/* BUTTON */
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #10b981, #059669);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #059669, #047857);
+}
+
+/* ===============================
+   HASIL JADWAL
+================================ */
+
+.solutions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(520px, 1fr));
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.solution-card {
+  background: rgba(255,255,255,0.85);
+  border-radius: 22px;
+  padding: 20px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+.solution-card h3 {
+  margin-bottom: 16px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #065f46;
+}
+
+/* TABEL HASIL */
+.solution-card table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.solution-card th {
+  background: #065f46;
+  color: #fff;
+  padding: 10px;
+  font-size: 13px;
+}
+
+.solution-card td {
+  padding: 10px;
+  font-size: 13px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.solution-card tr:hover {
+  background: #ecfdf5;
+}
+
+/* LEBAR KOLOM */
+.solution-card th:nth-child(1),
+.solution-card td:nth-child(1) {
+  width: 40%;
+}
+
+.solution-card th:nth-child(2),
+.solution-card td:nth-child(2) {
+  width: 25%;
+}
+
+.solution-card th:nth-child(3),
+.solution-card td:nth-child(3),
+.solution-card th:nth-child(4),
+.solution-card td:nth-child(4) {
+  width: 17.5%;
+}
+
+/* ===============================
+   HASIL JADWAL (PADAT & RAPI)
+================================ */
+
+.solutions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 20px;
+}
+
+/* CARD */
+.solution-card {
+  background: rgba(255,255,255,0.9);
+  border-radius: 18px;
+  padding: 14px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+.solution-card h3 {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #065f46;
+}
+
+/* TABLE */
+.solution-card table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.solution-card th {
+  background: #065f46;
+  color: #fff;
+  font-size: 12px;
+  padding: 6px;
+}
+
+.solution-card td {
+  font-size: 12px;
+  padding: 6px;
+  border-bottom: 1px solid #e5e7eb;
+  vertical-align: top;
+}
+
+.solution-card tr:hover {
+  background: #ecfdf5;
+}
+
+/* LEBAR KOLOM */
+.solution-card th:nth-child(1),
+.solution-card td:nth-child(1) {
+  width: 42%;
+}
+
+.solution-card th:nth-child(2),
+.solution-card td:nth-child(2) {
+  width: 22%;
+}
+
+.solution-card th:nth-child(3),
+.solution-card td:nth-child(3) {
+  width: 22%;
+}
+
+.solution-card th:nth-child(4),
+.solution-card td:nth-child(4) {
+  width: 14%;
+}
+
